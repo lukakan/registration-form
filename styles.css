@@ -15,8 +15,9 @@ body{
 }
 .adres-container{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: space-around;
+    align-items:baseline;
     
 }
 .city{
