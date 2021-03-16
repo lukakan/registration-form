@@ -45,21 +45,21 @@
                 <div class="form-text">Min. 8 znaków</div>
             </div>
             <div class = "mb-3">
-                <div class="adres-container">
-                    <div class ="city">
+                <div class="row">
+                    <div class ="col-12 col-md-5">
                         <label>Miasto</label>
                         <input class="form-control" type="text">
                     </div>
-                    <div class ="district">
+                    <div class ="col-12 col-md-4">
                         <label for="districts">Województwo</label>
                         <select id="districts" class="form-select">
-                            <option value="" disabled selected>Wybierz</option>
+                            <option value="" disabled selected hidden>Wybierz</option>
                             <option>Śląskie</option>
                             <option>Mazowieckie</option>
                             <option>Małopolskie</option>
                         </select>
                     </div>
-                    <div class ="postal-code">
+                    <div class ="col-12 col-md-3">
                         <label for = "code">Kod pocztowy</label>
                         <input id="code" class="form-control" type="text" pattern="[0-9]{2}-[0-9]{3}">
                     </div>
